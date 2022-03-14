@@ -6,12 +6,13 @@ var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
 
+    
+    btn.innerText =" changed now ";
     var ourRequest = new XMLHttpRequest();
     
 // ourRequest.open('GET', 'http://192.168.12.142/apps/api/97/devices/99/events?access_token=420ac040-5c42-4246-bed9-5574e4ead0ff');
 ourRequest.open('GET', 'https://cloud.hubitat.com/api/5fb2ffaa-47ac-4554-b948-19691990134a/apps/97/devices/99/events?access_token=420ac040-5c42-4246-bed9-5574e4ead0ff');
 
-//  https://cloud.hubitat.com/api/5fb2ffaa-47ac-4554-b948-19691990134a/apps/97/devices/[Device ID]/events?access_token=420ac040-5c42-4246-bed9-5574e4ead0ff
 ourRequest.onload = function() {
 
  console.log(ourRequest.responseText);
