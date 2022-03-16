@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="myCSS_sheet.css">
+    <title>Hubitat Get Events</title>
+</head>
+<body>
+    <Header>
+        <H1>Get Events from the thermometers</H1>
+        <div id = "button-div">   
+        <button id = "btn">Fetch The Temperature</button>
+        <button id = "in-out-select">Get Outdoor Temp</button>
+        <input type="button" value = "Refresh" onclick="history.go(0)" />
+        </div>
+
+    </Header>
+    <div id="events-info"></div>
+    <script src="Hubitat GET Events_cloud.js"></script>
+</body>
+</html>

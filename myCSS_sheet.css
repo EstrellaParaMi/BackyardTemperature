@@ -1,0 +1,16 @@
+
+ 
+#button-div {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    width:fit-content;
+
+}
+
+#btn {
+    color: blue;
+    width: 200px;
+
+}
